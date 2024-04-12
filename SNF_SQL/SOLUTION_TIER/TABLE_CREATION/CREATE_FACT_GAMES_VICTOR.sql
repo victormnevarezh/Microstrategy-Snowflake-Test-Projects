@@ -1,0 +1,15 @@
+EXECUTE IMMEDIATE $$
+
+CREATE OR REPLACE TABLE "UNIVERSITY_BLUETAB"."SOLUTION_TIER"."FACT_GAMES_VICTOR" (
+	"Id_Product" NUMBER(38,0),
+	"Id_Platform" NUMBER(38,0),
+	"Id_Year" NUMBER(38,0),
+	"Id_Genre" NUMBER(38,0),
+	"Id_Publisher" NUMBER(38,0),
+	"Id_Region" NUMBER(38,0),
+	"Sales" NUMBER(38,0),
+	"Cost" NUMBER(32,4),
+	"Earnings" NUMBER(33,4)
+);
+
+$$;

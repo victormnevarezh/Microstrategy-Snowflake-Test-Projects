@@ -1,0 +1,5 @@
+@echo off
+echo CREATE DIM_TIME_VICTOR TABLE
+pause
+snowsql -c bluetab -f C:\SNF_SQL\SOLUTION_TIER\TABLE_CREATION\CREATE_DIM_TIME_VICTOR.sql
+pause
